@@ -1,0 +1,6 @@
+{
+  "name": "Green Paradise - Planificador de Redes",
+  "description": "Calendario interno de planificación y seguimiento de contenidos para redes sociales de Green Paradise Hotel & Bungalows Tingo María.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="60%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="poolWater" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="deckWood" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="500" fill="url(#skyGrad)"/>
+  <!-- Distant Mountains -->
+  <path d="M0 240 Q150 160 320 210 Q500 130 680 200 Q760 170 800 210 L800 320 L0 320 Z" fill="#1e3a2b" opacity="0.6"/>
+  <path d="M0 260 Q180 190 380 240 Q560 180 800 250 L800 350 L0 350 Z" fill="#14532d" opacity="0.9"/>
+  <!-- Jungle Foliage Back -->
+  <g fill="#166534">
+    <circle cx="80" cy="280" r="70"/>
+    <circle cx="200" cy="290" r="90"/>
+    <circle cx="620" cy="280" r="80"/>
+    <circle cx="740" cy="270" r="90"/>
+  </g>
+  <g fill="#15803d">
+    <circle cx="120" cy="300" r="60"/>
+    <circle cx="680" cy="310" r="70"/>
+  </g>
+  <!-- Palm Trees -->
+  <g stroke="#78350f" stroke-width="8" stroke-linecap="round">
+    <path d="M720 380 Q710 260 670 160"/>
+    <path d="M750 390 Q760 270 780 180"/>
+  </g>
+  <!-- Palm leaves -->
+  <g fill="#22c55e">
+    <path d="M670 160 C640 130 580 140 560 160 C600 170 640 170 670 160 Z"/>
+    <path d="M670 160 C660 110 630 80 610 80 C620 110 640 140 670 160 Z"/>
+    <path d="M670 160 C700 110 740 90 760 100 C740 120 710 140 670 160 Z"/>
+    <path d="M670 160 C720 140 780 160 800 190 C760 180 710 180 670 160 Z"/>
+  </g>
+  <!-- Resort Pool Deck -->
+  <polygon points="0,320 800,320 800,500 0,500" fill="url(#deckWood)"/>
+  <!-- Deck Planks Lines -->
+  <g stroke="#5c2608" stroke-width="1.5" opacity="0.4">
+    <line x1="0" y1="340" x2="800" y2="340"/>
+    <line x1="0" y1="365" x2="800" y2="365"/>
+    <line x1="0" y1="395" x2="800" y2="395"/>
+    <line x1="0" y1="430" x2="800" y2="430"/>
+    <line x1="0" y1="470" x2="800" y2="470"/>
+  </g>
+  <!-- Crystal Pool -->
+  <ellipse cx="400" cy="410" rx="340" ry="85" fill="#0284c7" opacity="0.3"/>
+  <ellipse cx="400" cy="405" rx="330" ry="78" fill="url(#poolWater)"/>
+  <!-- Water ripples -->
+  <ellipse cx="380" cy="400" rx="260" ry="50" fill="none" stroke="#e0f2fe" stroke-width="2.5" opacity="0.6"/>
+  <ellipse cx="420" cy="415" rx="190" ry="35" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
+  <!-- Lounge Chair with Umbrella -->
+  <g transform="translate(100, 310)">
+    <circle cx="40" cy="30" r="38" fill="#f59e0b"/>
+    <path d="M40 30 L40 90" stroke="#fef08a" stroke-width="3"/>
+    <rect x="70" y="70" width="70" height="15" rx="3" fill="#ffffff"/>
+    <rect x="70" y="60" width="25" height="12" rx="2" fill="#1d9073"/>
+  </g>
+  <!-- Badge Label -->
+  <rect x="30" y="30" width="240" height="38" rx="19" fill="#146d57" opacity="0.9"/>
+  <text x="150" y="54" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="1">PISCINA &amp; RELAX SELVA</text>
+</svg>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Paradise - Planificador de Redes</title>
+    <meta name="description" content="Calendario interno de planificación y seguimiento de contenidos para redes sociales de Green Paradise Hotel & Bungalows Tingo María." />
+    <meta property="og:title" content="Green Paradise - Planificador de Redes" />
+    <meta property="og:description" content="Calendario interno de planificación y seguimiento de contenidos para redes sociales de Green Paradise Hotel & Bungalows Tingo María." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-layout">
+      <!-- Desktop Left Sidebar: Compact, No Scroll, Everything fits -->
+      <aside class="desktop-sidebar" aria-label="Menú lateral">
+        <div class="sidebar-header">
+          <a href="#/mes" class="sidebar-logo-link" title="Green Paradise Hotel & Bungalows">
+            <img src="images/logo.svg" alt="Green Paradise Hotel & Bungalows" class="sidebar-logo" />
+          </a>
+        </div>
+
+        <nav class="sidebar-nav" aria-label="Navegación principal">
+          <a href="#/mes" class="sidebar-nav-link" id="nav-mes">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            <span>Mes</span>
+          </a>
+
+          <a href="#/semana" class="sidebar-nav-link" id="nav-semana">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+            <span>Semana</span>
+          </a>
+
+          <a href="#/dia" class="sidebar-nav-link" id="nav-dia">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>Día</span>
+          </a>
+
+          <!-- Barra de navegación de calendario entre Día y Pendientes -->
+          <div class="sidebar-date-nav-container" id="sidebar-date-nav-slot"></div>
+
+          <a href="#/pendientes" class="sidebar-nav-link" id="nav-pendientes">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+            <span>Pendientes</span>
+            <span class="badge-count badge-pending-count" style="display: none;">0</span>
+          </a>
+
+          <!-- Botón Agregar en menú vertical de escritorio -->
+          <div class="sidebar-action-wrap">
+            <button id="add-activity-btn" class="btn btn-primary sidebar-add-btn" title="Agregar nueva actividad">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+              <span>Agregar</span>
+            </button>
+          </div>
+        </nav>
+      </aside>
+
+      <!-- Main Layout -->
+      <div class="main-layout">
+        <!-- Mobile Top Header (only on mobile) -->
+        <header class="mobile-site-header">
+          <div class="mobile-header-container">
+            <a href="#/mes" class="logo-wrapper">
+              <img src="images/logo.svg" alt="Green Paradise Hotel & Bungalows" class="site-logo" />
+            </a>
+          </div>
+        </header>
+
+        <!-- Main View Content Area -->
+        <main class="app-container">
+          <div id="app-view"></div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Mobile Date Navigation Floating Dropdown Popover -->
+    <div id="mob-date-popover" class="mobile-date-popover" style="display: none;"></div>
+
+    <!-- Mobile Bottom Navigation (Fixed) -->
+    <nav class="mobile-bottom-nav" aria-label="Navegación móvil">
+      <div class="mobile-nav-items">
+        <a href="#/mes" class="mobile-nav-item" id="mob-nav-mes">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          <span>Mes</span>
+        </a>
+        <a href="#/semana" class="mobile-nav-item" id="mob-nav-semana">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          <span>Semana</span>
+        </a>
+        <a href="#/dia" class="mobile-nav-item" id="mob-nav-dia">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <span>Día</span>
+        </a>
+        <!-- Botón de fecha/calendario en mobile para desplegar menú de navegación de fechas -->
+        <button type="button" class="mobile-nav-item mobile-calendar-btn" id="mob-calendar-nav-btn" title="Navegar fecha">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line><path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"></path></svg>
+          <span>Fecha</span>
+        </button>
+        <div class="mob-pendientes-group">
+          <a href="#/pendientes" class="mobile-nav-item" id="mob-nav-pendientes">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+            <span>Pendientes</span>
+            <span class="mobile-badge badge-pending-count" style="display: none;">0</span>
+          </a>
+          <button type="button" class="mob-btn-plus-icon" id="mob-add-activity-btn" title="Agregar nueva actividad">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- App JavaScript -->
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

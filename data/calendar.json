@@ -1,0 +1,339 @@
+{
+  "config": {
+    "whatsapp": "51936574554",
+    "pin": "GP2026",
+    "nombre": "Green Paradise Hotel & Bungalows",
+    "ubicacion": "Tingo María, Huánuco - Perú",
+    "sitioWeb": "https://greenparadise-hotel.com/"
+  },
+  "publicaciones": [
+    {
+      "id": "pub-099a",
+      "grupoId": "grp-099",
+      "fecha": "2026-10-15",
+      "hora": "11:00",
+      "titulo": "Aniversario de Tingo María",
+      "descripcion": "Una portada por el día del aniversario de Tingo María. Publicación con imagen oficial para Hotel.",
+      "copy": "¡Feliz 88° Aniversario, hermosa Tingo María! 🎉🏨 Celebramos la rica historia, cultura y calidez de la \"Puerta de la Amazonía\". Visítanos y disfruta de las festividades con el máximo confort a solo pasos de la acción. ✨\n\n📲 Reservas: 993 294 249\n\n#TingoMaria #AniversarioTingoMaria #HotelTingoMaria #HospedajePeru #TurismoHuanuco",
+      "tipo": "imagen",
+      "marca": "hotel",
+      "redes": ["facebook", "instagram", "tiktok"],
+      "imagenes": [
+        "images/aniversario_tingo_hotel.jpg"
+      ],
+      "publicado": {
+        "facebook": true,
+        "instagram": true,
+        "tiktok": true
+      },
+      "estado": "publicado"
+    },
+    {
+      "id": "pub-099b",
+      "grupoId": "grp-099",
+      "fecha": "2026-10-15",
+      "hora": "11:00",
+      "titulo": "Aniversario de Tingo María (Bungalows)",
+      "descripcion": "Una portada por el día del aniversario de Tingo María. Publicación con imagen oficial para Bungalows.",
+      "copy": "¡Feliz 88° Aniversario, Tingo María! 🎉🌴 Hoy celebramos a la tierra de la Bella Durmiente y la magia de nuestra selva. ¡Únete a la fiesta y descansa en el refugio natural que mereces! ✨\n\n📲 Reservas: 979 309 553\n\n#TingoMaria #AniversarioTingoMaria #GreenParadiseBungalows #SelvaPeruana #EscapadaPerfecta",
+      "tipo": "imagen",
+      "marca": "bungalows",
+      "redes": ["facebook", "instagram", "tiktok"],
+      "imagenes": [
+        "images/aniversario_tingo_bungalows.jpg"
+      ],
+      "publicado": {
+        "facebook": true,
+        "instagram": true,
+        "tiktok": true
+      },
+      "estado": "publicado"
+    },
+    {
+      "id": "pub-101",
+      "grupoId": "grp-101",
+      "fecha": "2026-10-19",
+      "hora": "10:30",
+      "titulo": "Inicio de Semana en el Paraíso Amazónico",
+      "descripcion": "Fotografía motivacional mostrando el amanecer sobre las montañas de Tingo María y la tranquilidad de los jardines.",
+      "copy": "Despertar con el canto de la selva y el aroma del café recién pasado ☕🌿. En Green Paradise Hotel, cada mañana es un respiro para el alma. ¿Listo para desconectarte? Reserva tu escapada de fin de semana al WhatsApp en el enlace de la bio. #TingoMaria #GreenParadise #SelvaPeruana #HotelDeSelva #Escapada",
+      "tipo": "imagen",
+      "marca": "hotel",
+      "redes": ["facebook", "instagram", "tiktok", "youtube"],
+      "imagenes": [
+        "images/bella-durmiente-tour.svg",
+        "images/piscina-selva.svg"
+      ],
+      "publicado": {
+        "facebook": true,
+        "instagram": true,
+        "youtube": false,
+        "tiktok": true
+      },
+      "estado": "publicado"
+    },
+    {
+      "id": "pub-102",
+      "grupoId": "grp-102",
+      "fecha": "2026-10-20",
+      "hora": "16:00",
+      "titulo": "Refrescante Tarde de Piscina & Coctelería",
+      "descripcion": "Fotografía cenital de la piscina rodeada de palmeras con dos cócteles exóticos de frutas de la región.",
+      "copy": "El clima cálido de Tingo María se disfruta mejor al borde de nuestra piscina con un 'Paraíso Verde' en mano 🍹🏊‍♂️. Disfruta de nuestro bar y zona lounge exclusivo para huéspedes. ¡Te esperamos! #GreenParadise #PoolDay #RelaxTingoMaria #CocteleriaAmazonica #VacacionesEnFamilia",
+      "tipo": "imagen",
+      "marca": "hotel",
+      "redes": ["facebook", "instagram"],
+      "imagenes": [
+        "images/piscina-selva.svg"
+      ],
+      "publicado": {
+        "facebook": true,
+        "instagram": false
+      },
+      "estado": "programado"
+    },
+    {
+      "id": "pub-102b",
+      "grupoId": "grp-102b",
+      "fecha": "2026-10-20",
+      "hora": "18:00",
+      "titulo": "Carrusel: Rincones Secretos de Green Paradise",
+      "descripcion": "Serie de fotos en carrusel mostrando senderos ecológicos, orquídeas y vistas privilegiadas.",
+      "copy": "Desliza para descubrir la magia oculta de nuestro resort 🌺✨. Senderos protegidos, flora exótica y rincones diseñados para tu desconexión total. ¿Cuál es tu rincón favorito? Cuéntanos en los comentarios.",
+      "tipo": "carrusel",
+      "marca": "hotel",
+      "redes": ["instagram", "facebook"],
+      "imagenes": [
+        "images/coctel-exotico.svg",
+        "images/piscina-selva.svg",
+        "images/restaurant-tingo.svg",
+        "images/bella-durmiente-tour.svg"
+      ],
+      "publicado": {
+        "instagram": false,
+        "facebook": false
+      },
+      "estado": "programado"
+    },
+    {
+      "id": "pub-102c",
+      "grupoId": "grp-102c",
+      "fecha": "2026-10-20",
+      "hora": "20:00",
+      "titulo": "Experiencia Acogedora en Bungalows de Selva",
+      "descripcion": "Video recorrido mostrando la calidez de la madera noble y la comodidad de nuestros bungalows privados.",
+      "copy": "Privacidad y confort en medio de la naturaleza viva 🏡🌿. Espacios ideales para familias y parejas que buscan tranquilidad.",
+      "tipo": "video",
+      "marca": "bungalows",
+      "redes": ["tiktok", "instagram"],
+      "imagenes": [
+        "images/bungalow-deluxe.svg"
+      ],
+      "publicado": {
+        "tiktok": false,
+        "instagram": false
+      },
+      "estado": "programado"
+    },
+    {
+      "id": "pub-103a",
+      "grupoId": "grp-103",
+      "fecha": "2026-10-22",
+      "hora": "11:00",
+      "titulo": "Fin de Semana de Aventura y Descanso (Hotel)",
+      "descripcion": "Campaña conjunta: destacar la combinación de tours ecológicos guiados y descanso confortable en habitaciones de hotel.",
+      "copy": "Combina la emoción de conocer la Cueva de las Lechuzas con el descanso que mereces 🦜🌿. Habitaciones confortables con aire acondicionado, Wi-Fi y desayuno buffet incluido. Consulta nuestros paquetes de fin de semana.",
+      "tipo": "imagen",
+      "marca": "hotel",
+      "redes": ["facebook", "instagram", "tiktok"],
+      "imagenes": [
+        "images/desayuno-amazonico.svg",
+        "images/bella-durmiente-tour.svg"
+      ],
+      "publicado": {
+        "facebook": false,
+        "instagram": false,
+        "tiktok": false
+      },
+      "estado": "programado"
+    },
+    {
+      "id": "pub-103b",
+      "grupoId": "grp-103",
+      "fecha": "2026-10-22",
+      "hora": "11:00",
+      "titulo": "Fin de Semana de Aventura y Descanso (Bungalows)",
+      "descripcion": "Campaña conjunta: destacar la experiencia de alojarse en un bungalow privado entre árboles frutales para familias o grupos.",
+      "copy": "¿Viajas en familia o con amigos? Nuestros bungalows privados te ofrecen la máxima comodidad y privacidad en contacto directo con la naturaleza 🏡🍃. Terrazas con hamacas, frigobar y vista a los jardines tropicales.",
+      "tipo": "imagen",
+      "marca": "bungalows",
+      "redes": ["facebook", "instagram"],
+      "imagenes": [
+        "images/bungalow-deluxe.svg",
+        "images/bungalow-interior.svg"
+      ],
+      "publicado": {
+        "facebook": false,
+        "instagram": false
+      },
+      "estado": "programado"
+    },
+    {
+      "id": "pub-104",
+      "grupoId": "grp-104",
+      "fecha": "2026-10-24",
+      "hora": "13:00",
+      "titulo": "Sabores de la Selva: Tacacho & Cecina Gourmet",
+      "descripcion": "Post gastronómico destacando los platos bandera de nuestro restaurante de comida típica y fusión.",
+      "copy": "Los auténticos secretos de la gastronomía de Huánuco y la selva central están en nuestro restaurante 🌿🍌. Preparado con ingredientes locales frescos y el toque secreto de nuestro chef. ¿Ya probaste nuestro tacacho con cecina y ensalada de chonta?",
+      "tipo": "imagen",
+      "marca": "hotel",
+      "redes": ["facebook", "instagram"],
+      "imagenes": [
+        "images/restaurant-tingo.svg"
+      ],
+      "publicado": {
+        "facebook": false,
+        "instagram": false
+      },
+      "estado": "programado"
+    },
+    {
+      "id": "pub-105",
+      "grupoId": "grp-105",
+      "fecha": "2026-10-25",
+      "hora": "09:00",
+      "titulo": "Tour Virtual por los Bungalows Familiares",
+      "descripcion": "Video recorrido en formato vertical tipo TikTok/Reel mostrando el interior de los bungalows de madera noble y sus terrazas.",
+      "copy": "Acompáñanos en este recorrido de 30 segundos por nuestro Bungalow Familiar Deluxe ✨ Capacidad para hasta 5 personas, baño privado moderno, acabados en madera de la zona y una terraza donde el tiempo se detiene. Guarda este video para tu próximo viaje.",
+      "tipo": "video",
+      "marca": "bungalows",
+      "redes": ["tiktok", "instagram", "youtube"],
+      "imagenes": [
+        "images/bungalow-interior.svg",
+        "images/bungalow-deluxe.svg"
+      ],
+      "publicado": {
+        "tiktok": false,
+        "instagram": false,
+        "youtube": false
+      },
+      "estado": "programado"
+    },
+    {
+      "id": "pub-106",
+      "grupoId": "grp-106",
+      "fecha": "2026-10-28",
+      "hora": "",
+      "titulo": "Trivia: ¿Conoces la leyenda de la Bella Durmiente?",
+      "descripcion": "Post interactivo en carrusel con la historia de Cuynac y Nunash, visible desde nuestro mirador.",
+      "copy": "",
+      "tipo": "imagen",
+      "marca": "hotel",
+      "redes": ["facebook", "instagram"],
+      "imagenes": [
+        "images/bella-durmiente-tour.svg"
+      ],
+      "publicado": {
+        "facebook": false,
+        "instagram": false
+      },
+      "estado": "idea"
+    },
+    {
+      "id": "pub-107",
+      "grupoId": "grp-107",
+      "fecha": "2026-10-31",
+      "hora": "19:00",
+      "titulo": "Noche de Leyendas & Fogata en los Bungalows",
+      "descripcion": "Evento especial de fin de mes: fogata bajo las estrellas amazónicas, música acústica y cócteles de cortesía.",
+      "copy": "Este 31 de octubre, vive una noche mágica bajo el cielo estrellado de Tingo María ✨🔥. Fogata en los jardines de los bungalows, degustación de macerados regionales y cuentos amazónicos para grandes y chicos. Exclusivo para huéspedes registrados.",
+      "tipo": "imagen",
+      "marca": "bungalows",
+      "redes": ["facebook", "instagram", "tiktok"],
+      "imagenes": [
+        "images/bungalow-deluxe.svg",
+        "images/coctel-exotico.svg"
+      ],
+      "publicado": {
+        "facebook": false,
+        "instagram": false,
+        "tiktok": false
+      },
+      "estado": "programado"
+    },
+    {
+      "id": "pub-108",
+      "grupoId": "grp-108",
+      "fecha": "2026-10-31",
+      "hora": "12:00",
+      "titulo": "Promoción Especial Feriado Largo Noviembre",
+      "descripcion": "Banner promocional con paquete de 3 días y 2 noches con desayuno y traslado incluidos.",
+      "copy": "¡Anticípate al feriado largo! Reserva tu estadía en Green Paradise y disfruta de 15% de descuento en estancias de 3 noches a más 🌴💚. Cupos limitados. Haz clic en el botón de WhatsApp para recibir el tarifario detallado.",
+      "tipo": "imagen",
+      "marca": "hotel",
+      "redes": ["facebook", "instagram"],
+      "imagenes": [],
+      "publicado": {
+        "facebook": false,
+        "instagram": false
+      },
+      "estado": "idea"
+    },
+    {
+      "id": "pub-109",
+      "grupoId": "grp-109",
+      "fecha": "2026-11-02",
+      "hora": "15:00",
+      "titulo": "Video Drone: Vistas Panorámicas de la Naturaleza",
+      "descripcion": "Toma aérea del río Huallaga, el hotel, la piscina y los bungalows entre la densa vegetación verde.",
+      "copy": "Naturaleza en su estado más puro 🦅🌲. En Green Paradise Tingo María te invitamos a reconectar contigo mismo. #GreenParadiseHotel #TingoMariaPeru #DroneVideo #NaturalezaViva #TurismoPeru",
+      "tipo": "video",
+      "marca": "hotel",
+      "redes": ["tiktok", "instagram", "youtube", "facebook"],
+      "imagenes": [
+        "images/bella-durmiente-tour.svg"
+      ],
+      "publicado": {
+        "tiktok": false,
+        "instagram": false,
+        "youtube": false,
+        "facebook": false
+      },
+      "estado": "idea"
+    },
+    {
+      "id": "pub-110",
+      "grupoId": "grp-110",
+      "fecha": "2026-11-05",
+      "hora": "",
+      "titulo": "Cata de Chocolates y Café de la Selva",
+      "descripcion": "Experiencia vivencial de degustación de cacao fino de aroma y café orgánico de cooperativas de Tingo María.",
+      "copy": "",
+      "tipo": "imagen",
+      "marca": "bungalows",
+      "redes": ["instagram"],
+      "imagenes": [],
+      "publicado": {
+        "instagram": false
+      },
+      "estado": "idea"
+    }
+  ],
+  "pendientes": [
+    {
+      "id": "pen-101",
+      "titulo": "Reunión por ingreso a cuenta de tiktok para Hotel",
+      "descripcion": "El editor requiere una reunión para ingresar al gmail de hotel para poder usar correctamente el tiktok.",
+      "hecho": false,
+      "fechaCreacion": "2026-10-19"
+    },
+    {
+      "id": "pen-102",
+      "titulo": "Reunión para vincular el numero de whatsapp a la fan page de hotel",
+      "descripcion": "El editor requiere que el administrador del whatsapp del hotel reciba y comparta un codigo para vincular el whatsapp en el portafolio comercial del Hotel",
+      "hecho": false,
+      "fechaCreacion": "2026-10-19"
+    }
+  ]
+}
